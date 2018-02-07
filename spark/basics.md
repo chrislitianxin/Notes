@@ -4,7 +4,8 @@ Scala
  * Easy to interact with Java, can write Java inside Scala class
  * Scala is also functional lang, every computation is a math function (not pure functional as opposed to Haskell)
 
-
+Terms
+-----
 * Object: An entity that has state and behavior is known as an object. For example: table, person, car etc.
 
 * Class: A class can be defined as a blueprint or a template for creating different objects which defines its properties and behavior.
