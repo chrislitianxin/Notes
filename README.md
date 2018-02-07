@@ -1,10 +1,7 @@
 #Ruby Quick Hands On in 30 mins 
 ##In Essense, this is the note I took after finishing the codeacademy Ruby introductory course.
-Credit to Codeacademy.com.
 
-This guide is for intermediate programmers who had previous programming experience in Object-Oriented programming who want a taste of Ruby, yet do not have 13 hours to spare on Codeacademy.
 
-Don't get me wrong. Codeacademy is a great place to learn new language, I used it all the time, however we often find wasting too much time on entry level stuff such as boolean values.  This will let you take a shortcut and go straight away into understanding Ruby syntax.
 
 ```ruby
 #Ruby is very much like python. 
