@@ -1,8 +1,6 @@
 Scala
 =====
-* Scala is OOP and a compiler based language 
- * Python is interpreted language, as compared scala should be faster.
- * Everything in scala is an object and any operations you perform is a method call. 
+* Scala is OOP and a compiler based language. Python is interpreted language, as compared scala should be faster. Everything in scala is an object and any operations you perform is a method call. 
  * Easy to interact with Java, can write Java inside Scala class
  * Scala is also functional lang, every computation is a math function (not pure functional as opposed to Haskell)
 
