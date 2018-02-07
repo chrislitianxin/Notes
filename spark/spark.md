@@ -11,3 +11,36 @@ Spark Terms
 * Action: Actions refer to an operation which also apply on RDD that perform computation and send the result back to driver.
 * Broadcast: We can use the Broadcast variable to save the copy of data across all node.
 * Accumulator: In Accumulator, variables are used for aggregating the information.
+
+
+Creating RDD
+`./bin/spark-shell` 
+```scala
+val data = Array(1,2 ,3)
+val distData = sc.parallelize(data)  // create RDD from iterable
+disData.collect()   // see the data
+```
+
+Map 
+```scala
+var lines = sc.textFile("text.txt") // load data from another file
+val Length = lines.map(s => s.length)
+Length.collect()
+lines.count() 
+```
+
+Reduce 
+```scala
+val totalLength = Length.reduce((a,b) => a+b)   // calculate the total length of all lines in Length
+```
+
+FlatMap transformation and reduce by key action
+```scala
+val counts = lines.flatMap(line => line.split(" ")).map(word => word,1__.reduceByKey(_+_) 
+// calculate frequency of each word
+```
+
+Filter Transformation
+```scala
+// filter out the words with length more than 5
+val lg5 = lines.flatMap(line => line.split(" ")).filter(_.length > 5)
