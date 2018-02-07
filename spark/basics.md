@@ -16,6 +16,8 @@ Terms
 
 * Traits: Traits are used to define object types by specifying the signature of the supported methods. It is like interface in java.
 
+basics
+----
 
 variables
 ```scala
