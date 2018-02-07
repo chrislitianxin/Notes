@@ -1,3 +1,5 @@
+Spark Terms
+===========
 Lazy operation: Operations which do not execute until we require results.
 Spark Context:  holds a connection with Spark cluster manager.
 Driver and Worker: A driver is in charge of the process of running the main() function of an application and creating the SparkContext.
